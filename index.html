@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>Wedding Photo booth Rental Ottawa</title>
+  <link href='https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet'>
+  <meta charset="UTF-8">
+
+  <style>
+    #ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+    
+
+    h1 {
+      text-align: center;
+      font-size: 48px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 48px;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      text-align: left;
+      background-color: white;
+      animation: fadeToBlack 1s forwards;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 250vh;
+    }
+    
+/*
+    #video-container {
+      position: relative;
+      width: 540;
+      height: 540px;
+      background-color: black;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-family: 'Allerta Stencil';font-size: 100px;
+
+
+      
+    }
+
+    .countdown-container {
+    position: absolute;
+    top: 50%;wi
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  */
+
+    @keyframes fadeToBlack {
+      0% {
+        background-color: black;
+      }
+      100% {
+        background-color: white;
+      }
+    }
+
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    
+    img {
+      display: block;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 100%;
+      height: auto;
+    }
+
+    #image-gallery {
+      margin-left: 100;
+      margin-right: 100;
+    }
+
+    p {
+      font-size: 36px;
+      line-height: 1.5;
+      width: 100%;
+      margin: 10px ;
+    }
+    
+    .contact-info {
+      font-size: 14px;
+      margin-top: 20px;
+    }
+
+    #ad {
+      width: 540px;
+      height: 540px;
+      /*
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      */
+    }
+
+    #ad img {
+      width: 100%;
+      height: 100%;
+    }
+
+    table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  p:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    #image {
+      animation: fade-in 1s ease-in-out 0s forwards;
+      align: center;
+    }
+
+    #interest-1 {
+      opacity: 0;
+      animation: fade-in 1s ease-in-out 1s forwards;
+    }
+    
+    #interest-2 {
+      opacity: 0;
+      animation: fade-in 1s ease-in-out 2s forwards;
+    }
+    
+    #interest-3 {
+      opacity: 0;
+      animation: fade-in 1s ease-in-out 3s forwards;
+    }
+    
+    #interest-4 {
+      opacity: 0;
+      animation: fade-in 1s ease-in-out 4s forwards;
+    }
+    
+    #interest-5 {
+      opacity: 0;
+      animation: fade-in 1s ease-in-out 5s forwards;
+    }
+
+    #interest-6 {
+      opacity: 0;
+      animation: fade-in 1s ease-in-out 6s forwards;
+    }
+    
+    #desire-1 {
+      opacity: 0;
+      animation: fade-in 1s ease-in-out 7s forwards;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      font-size: 30px;
+
+    }
+    
+    li:nth-child(odd) {
+      background-color: #f2f2f2;
+    }
+
+    #desire-2 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+    @media (orientation: portrait){
+      h1, h2{
+        font-size: 64px;
+      }
+
+      p{
+        font-size: 48px;
+      }
+      li {
+        font-size: 48px;
+      }
+      td {
+        font-size: 36px;
+      }
+
+      .container {
+        max-width: 800px;
+      }
+      .menu {
+        display: none;
+      }
+
+      .menu-toggle {
+        display: block;
+        cursor: pointer;
+        padding: 10px;
+        background-color: black;
+        color: white;
+      }
+
+      .menu-toggle:hover {
+        background-color: #333;
+      }
+
+      .menu-toggle span {
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: white;
+        margin-bottom: 4px;
+      }
+    }
+    
+    /* Menu styles */
+    nav {
+      text-align: center;
+    }
+
+    .menu {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+    }
+
+    .menu li {
+      margin: 0 10px;
+    }
+
+    .menu a {
+      color: black;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    /* Media query for smaller screens */
+    @media (max-width: 768px) {
+      .menu {
+        font-size: 12px;
+      }
+    }
+/* Footer styles */
+footer {
+      background-color: #f1f1f1;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Payment icon styles */
+    .payment-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .payment-icons img {
+      width: 40px;
+      height: 40px;
+      margin: 0 10px;
+    }
+  </style>
+
+<nav>
+  <div class="menu-toggle" onclick="toggleMenu()"></div>
+  <ul class="menu" id="menu">
+    <li><a href="#Attention-2">Wedding</a></li>
+    <li><a href="#Attention-2">Birthday</a></li>
+    <li><a href="#Attention-2">Corporate</a></li>
+    <li><a href="#Attention-2">Graduation</a></li>
+    <li><a href="#Attention-2">Charity</a></li>
+    <li><a href="#Attention-2">Prom</a></li>
+    <li><a href="#Attention-2">Frosh Week</a></li>
+    <li><a href="#Attention-2">Tradeshow</a></li>
+    <li><a href="#Attention-2">Christmas</a></li>
+    <li><a href="#Attention-2">Bar Mitzvah</a></li>
+    <li><a href="#Attention-2">Fundraiser</a></li>
+    <li><a href="#Attention-2">Marketing</a></li>
+  </ul>
+</nav>
+</head>
+<body>
+  <div class="container">
+    <h1 id="Attention-1">Capture the Fun at Your Next Event With Our Photo Booth Rental!</h1>
+    <div id="video-container">
+      <div id="countdown-container"></div>
+    </div>
+    <img id="Attention-2" src="https://s3.ca-central-1.amazonaws.com/weddingphotoboothottawa.com/Images/OTTAWA+PHOTOBOOTH+GALLERY.gif" alt="Lazy-loaded GIF">
+  
+    <a id="Book" href="https://calendly.com/d/2kt-k4d-r74/photobooth-rental"><img src="https://s3.ca-central-1.amazonaws.com/weddingphotoboothottawa.com/Images/Ottawa+Wedding+Photobooth+Booking.webp"></img></a>
+<!--<a href="#Book">
+      <img id="image" src="https://s3.ca-central-1.amazonaws.com/weddingphotoboothottawa.com/Images/Photo+Booth+Ottawa+Book+Now.webp" alt="Open Photo booth Rental">
+    </a>
+-->
+    
+    
+  <p id="interest-1">✅ Want your guests to have a blast to <b>remember for years?</b> </p>
+
+  <p id="interest-2">✅ This fully-equipped booth captures <b>your priceless moments.</b></p>
+    
+  <p id="interest-3">✅ It prints HD photos on the spot <b>in 5 seconds.</b></p>
+
+  <p id="interest-4">✅ They will go home with those <b>printed photos in hand.</b>  </p>
+  
+  <p id="interest-5">✅ Customize the experience with <b>your logo and props.</b></p>
+
+  <p id="interest-6">✅ Our skilled staff handles everything, <b>ensuring a smooth event.</b></p>
+
+  <img id=desire-1 src="https://s3.ca-central-1.amazonaws.com/weddingphotoboothottawa.com/Images/Wedding+Photobooth+Ottawa.webp" alt="Ottawa Phot booth Rental Service Ad">
+  
+  <h2 id="desire-2">The photo booth package includes:</h2>
+  <ul id="desire-3">
+    <li>🖨️ Instant onsite printing</li>
+    <li>📸 Online digital photo gallery</li>
+    <li>📦 Email and text photo delivery</li>
+    <li>🤵‍♂️ A photo booth attendant on site</li>
+    <li>😛 Props, templates, and backgrounds</li>
+    <li>🗓️ 1-year photo storage on Google Cloud</li>
+  </ul>
+
+
+  <!--<a href="#Book">
+    <img id="image-gallery" src="https://s3.ca-central-1.amazonaws.com/weddingphotoboothottawa.com/Images/OTTAWA+PHOTOBOOTH+GALLERY.gif" alt="Open Photo booth Rental">
+  </a>-->
+  
+
+  <p>As low as $200/hour for the photo booth and printer service. Payable after the event. No deposit needed!</p>
+  
+  <p> Cancelation policy: No charge to you for a canceled or delayed event.</p>
+
+  <p>I’ve been bringing memorable experiences to weddings and other events in the Ottawa-Montreal-Toronto regions for over five years.</p>
+  
+  <p>Contact me to learn how I can help you engage, entertain and impress your guests at your next event.</p>
+
+    <div id="ad">
+      <a href="https://calendly.com/d/2kt-k4d-r74/photobooth-rental" target="_blank">
+        <img src="https://s3.ca-central-1.amazonaws.com/weddingphotoboothottawa.com/Images/Photo+Booth+Ottawa+Book+Now.webp" alt="Ottawa Photo booth Rental Service Ad">
+      </a>
+    </div>
+    <div id="video-container"></div>
+  
+    
+    <h2>Photo booth And Printing Service Pricing</h2>
+    <p>My pricing is simple. I recommend 3 hours and you can expect 100-200 awesome photos.</p>
+    
+    <table>
+      <tr>
+        <th>Hours</th>
+        <th>Cost</th>
+      </tr>
+      <tr>
+        <td>For 1 hour</td>
+        <td>$400</td>
+      </tr>
+      <tr>
+        <td>For 2 hours</td>
+        <td>$500</td>
+      </tr>
+      <tr>
+        <td>For 3 hours</td>
+        <td>$600</td>
+      </tr>
+      <tr>
+        <td>For 4 hours</td>
+        <td>$800</td>
+      </tr>
+      <tr>
+        <td>For 5 hours</td>
+        <td>$1000</td>
+      </tr>
+      <tr>
+        <td>For 6 hours</td>
+        <td>$1200</td>
+      </tr>
+      </table>
+      
+    <p>Flexible payment options are available, including crypto. <b>Don't pay until after your wedding.</b> After the service is delivered, you will receive an invoice. <b>You will love your photos or your money back!</b></p>
+    
+    <p>Secure your photo booth rental now by booking it on my calendar.  </p>
+
+    <a id="Book" href="https://calendly.com/d/2kt-k4d-r74/photobooth-rental"><img src="https://s3.ca-central-1.amazonaws.com/weddingphotoboothottawa.com/Images/Ottawa+Wedding+Photobooth+Booking.webp"></img></a>
+    <p>Please feel free to email or contact me. 5 years in business. Over 200+ clients served. BBB Accredited.</p>
+
+    <p>Sincerely,<br>Camron Sabour<br>Call/Text 613-581-0643</p>
+  </div>
+  
+  <!--
+    <script>
+    var countdownContainer = document.getElementById('video-container');
+    
+    function startCountdown() {
+      var count = 3;
+      countdownContainer.innerText = count;
+      
+      var countdownInterval = setInterval(function() {
+        count--;
+        if (count >= 0) {
+          countdownContainer.innerText = count;
+        } else {
+          clearInterval(countdownInterval);
+          countdownContainer.innerText = 'Go!';
+        }
+      }, 1000);
+    }
+    
+    
+  </script>
+-->
+<div itemscope itemtype="https://schema.org/FAQPage" style="max-width: 600px;">
+  <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+    <h2 itemprop="name">What time does the photo booth show up?</h2>
+    <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+      <p itemprop="text">Usually, the phot obooth shows up 1 hour before it opens to set up the lighting, printer, and camera, and lay the props out.</p>
+    </div>
+  </div>
+
+  <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+    <h2 itemprop="name">How much space does the photo booth need?</h2>
+    <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+      <p itemprop="text">Ideally, the photo booth requires 10ftx10ft (3mx3m) of space, which is perfect for great group shots.</p>
+    </div>
+  </div>
+
+  <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+    <h2 itemprop="name">What do I need to do to reserve this photo booth for my event?</h2>
+    <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+      <p itemprop="text">To reserve the photo booth for your event, simply click the "Book Now" button and fill in as much detail as you can. Once you are in the calendar, your reservation is confirmed.</p>
+    </div>
+  </div>
+</div>
+<!--
+<script>
+  window.addEventListener('load', function() {
+    startCountdown();
+    var videoContainer = document.getElementById('video-container');
+    videoContainer.innerHTML = '<video controls autoplay><source src="https://s3.ca-central-1.amazonaws.com/weddingphotoboothottawa.com/Video/Ottawa+Photo+Booth+promo+video.webm" type="video/webm">Your browser does not support the video tag.</video>';
+    videoContainer.style.display = 'block';
+  });
+</script>
+-->
+<script>
+  function toggleMenu() {
+    var menu = document.getElementById("menu");
+    menu.classList.toggle("active");
+  }
+</script>
+<!--
+<script>
+function lazyLoadGif() {
+  var gif = document.getElementById("Attention-2");
+  var options = {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.1
+  };
+
+  var observer = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        var source = entry.target.dataset.src;
+        entry.target.src = source;
+        observer.unobserve(entry.target);
+      }
+    });
+  }, options);
+
+  observer.observe(gif);
+}
+
+
+setTimeout(lazyLoadGif, 3000);
+</script>
+-->
+
+<a id="Book" href="https://calendly.com/d/2kt-k4d-r74/photobooth-rental"><img src="https://s3.ca-central-1.amazonaws.com/weddingphotoboothottawa.com/Images/Ottawa+Wedding+Photobooth+Booking.webp"></img></a>
+
+
+<footer>
+  <p>Accepted payment methods:</p>
+  <div class="payment-icons">
+    <img src="https://s3.ca-central-1.amazonaws.com/weddingphotoboothottawa.com/Images/rent+photobooth+with+ethereum.webp" alt="Ethereum">
+    <img src="https://s3.ca-central-1.amazonaws.com/weddingphotoboothottawa.com/Images/rent+photobooth+with+apple+pay.webp" alt="Apple Pay">
+    <img src="https://s3.ca-central-1.amazonaws.com/weddingphotoboothottawa.com/Images/rent+photobooth+with+google+pay.webp" alt="Google Pay">
+    <img src="https://s3.ca-central-1.amazonaws.com/weddingphotoboothottawa.com/Images/rent+photobooth+with+pay+pal.webp" alt="PayPal">
+    <img src="https://s3.ca-central-1.amazonaws.com/weddingphotoboothottawa.com/Images/rent+photobooth+with+amex.webp" alt="American Express">
+    <img src="https://s3.ca-central-1.amazonaws.com/weddingphotoboothottawa.com/Images/rent+photobooth+with+visa.webp" alt="Visa">
+    <img src="https://s3.ca-central-1.amazonaws.com/weddingphotoboothottawa.com/Images/rent+photobooth+with+interac.webp" alt="Debit Card">
+    <img src="https://s3.ca-central-1.amazonaws.com/weddingphotoboothottawa.com/Images/rent+photobooth+with+cash.webp" alt="Cash">
+  </div>
+</footer>
+</body>
+</html>
